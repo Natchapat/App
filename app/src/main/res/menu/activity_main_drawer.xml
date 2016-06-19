@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_person_black_24dp"
+            android:title="My Profile"/>
+        <item
+            android:id="@+id/nav_allpromo"
+            android:icon="@mipmap/ic_list_black_24dp"
+            android:title="All Promotions"/>
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@mipmap/ic_search_black_24dp"
+            android:title="Scan"/>
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@mipmap/ic_location_on_black_24dp"
+            android:title="Service Points"/>
+
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/ic_settings_black_24dp"
+                android:title="Setting"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/ic_exit_to_app_black_24dp"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>

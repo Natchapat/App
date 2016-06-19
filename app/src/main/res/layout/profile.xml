@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+    <FrameLayout
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="40px"
+                    android:layout_marginTop="20px"
+                    android:onClick="Camera"
+                    android:padding="10px"
+                    android:src="@mipmap/avartar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/nav_header_vertical_spacing"
+                        android:text="Mr.XXX YYY"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email : xxx.yyy@mail.com" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="current points : 59" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100px"
+                        android:orientation="horizontal"
+                        android:paddingRight="16px"
+                        android:paddingTop="30px">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/btnhome"
+                            android:text="Home" />
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnedit"
+                            android:layout_weight="1"
+                            android:text="Edit" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Available Promotion area"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>
